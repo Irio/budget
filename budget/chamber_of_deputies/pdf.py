@@ -1,5 +1,6 @@
 import glob
 import subprocess
+import sys
 
 
 class PDF:
@@ -13,6 +14,11 @@ class PDF:
         pathname: the path for the PDF file(s). It accepts Unix style pathname
             pattern expansion, like `/Documents/*.pdf`.
         """
+        if sys.platform != 'darwin':
+            raise (
+                'Platform not supported. '
+                'Only macOS version of `pdftotext` has the expected behavior.'
+            )
         self.filenames = glob.glob(pathname)
 
     def extract_text(self):

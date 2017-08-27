@@ -1,14 +1,14 @@
 import shutil
+import sys
 import tempfile
-from unittest import TestCase
+from unittest import TestCase, skipIf
+from unittest.mock import patch
 
 from budget.chamber_of_deputies.pdf import PDF
 
 
 class TestPDF(TestCase):
-    def setUp(self):
-        self.subject = PDF('budget/tests/fixtures/single_page.pdf')
-
+    @skipIf(sys.platform != 'darwin', 'feature not supported outside macOS')
     def test_extract_text_single_page(self):
         tempfolder = tempfile.mkdtemp()
         pdf_path = '{}/single_page.pdf'.format(tempfolder)
@@ -20,6 +20,7 @@ class TestPDF(TestCase):
                 result_content = result_path.read()
                 self.assertEqual(expected_content, result_content)
 
+    @skipIf(sys.platform != 'darwin', 'feature not supported outside macOS')
     def test_content_multi_page(self):
         tempfolder = tempfile.mkdtemp()
         pdf_path = '{}/multi_page.pdf'.format(tempfolder)
@@ -31,6 +32,7 @@ class TestPDF(TestCase):
                 result_content = result_path.read()
                 self.assertEqual(expected_content, result_content)
 
+    @skipIf(sys.platform != 'darwin', 'feature not supported outside macOS')
     def test_content_multi_documents(self):
         tempfolder = tempfile.mkdtemp()
         pdf_1_path = '{}/single_page.pdf'.format(tempfolder)
@@ -53,3 +55,13 @@ class TestPDF(TestCase):
         with open(pdf_2_path.replace('.pdf', '.txt')) as result_path:
             result_content = result_path.read()
             self.assertEqual(expect_doct_2_content, result_content)
+
+    def test_fail_in_non_macos_systems(self):
+        filepath = 'budget/tests/fixtures/single_page.pdf'
+        with patch('budget.chamber_of_deputies.pdf.sys') as sys_mock:
+            sys_mock.platform = 'linux'
+            with self.assertRaises(Exception):
+                PDF(filepath)
+            sys_mock.platform = 'win32'
+            with self.assertRaises(Exception):
+                PDF(filepath)
