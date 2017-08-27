@@ -5,13 +5,14 @@
 ## Setup
 
 ```console
-$ docker-compose build
-$ docker-compose run scraper python -m unittest
+$ brew install xpdf
+$ python -m unittest
 ```
 
 ## Collect data
 
 ```console
-$ docker-compose run scraper scrapy crawl chamber_of_deputies \
-  --output /mnt/data/chamber_of_deputies.json
+$ cd scraper
+$ scrapy crawl chamber_of_deputies --output ../data/chamber_of_deputies.json
+$ cd ..
   ```

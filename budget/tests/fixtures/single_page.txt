@@ -1,0 +1,77 @@
+            CONGRESSO NACIONAL                                                                                                     Data:                   20/10/2016
+
+            COMISSÃO MISTA DE PLANOS, ORÇAMENTOS E FISCALIZAÇÃO                                                                    Hora:                   21:31
+
+            EMENDAS AO PLN 0018 / 20-16 - LOA                                                                                      Página:                 2529 de 7916
+                                                                                                                                                           1 de 1
+
+ESPELHO DE EMENDA DE APROPRIAÇÃO DE DESPESA
+
+AUTOR DA EMENDA                                                                                                                           EMENDA
+
+2783 - Francisco Floriano                                                                                                                                  27830001
+
+MODALIDADE DA EMENDA                                                       TIPO DE EMENDA
+
+Individual                                                                 Apropriação - Inclusão
+
+ÁREA DE GOVERNO
+
+Saúde
+
+MODALIDADE DE INTERVENÇÃO                                             TIPO DE REALIZAÇÃO PRETENDIDA
+
+050    Manutenção (apenas GND 3 - Despesas Correntes)                 615  Manutenção de Unidade de Saúde (GND 3 - Despesa Corrente)
+
+LOCALIDADE BENEFICIADA
+
+3300000 - Rio de Janeiro
+
+COMPLEMENTO DA LOCALIDADE
+
+ESFERA ORÇAMENTÁRIA                                               UNIDADE ORÇAMENTÁRIA PRETENDIDA
+
+Orçamento da Seguridade Social                                    Fundo Nacional de Saúde
+
+FUNCIONAL / AÇÃO / SUBTÍTULO
+
+10.122.2015.4525
+
+Apoio à Manutenção de Unidades de Saúde
+
+No Estado do Rio de Janeiro
+
+ESPECIFICAÇÃO DA META                                                                                                                                      QUANTIDADE
+
+Unidade apoiada(unidade)                                                                                                                                                   20
+
+ACRÉSCIMOS À PROGRAMAÇÃO (EM R$ 1,00)
+
+     GND                                                          MOD. APLICAÇÃO                                             RP           Valor Acrescido
+
+       3      Outras Despesas Correntes                           40  Transf. a Municípios                                   6                             15.319.536
+
+                                                                                                   TOTAL ........                                          15.319.536
+
+CANCELAMENTOS COMPENSATÓRIOS
+
+     SEQUENCIAL   FONTE         GND                                        MOD. APLICAÇÃO            ID                      RP                            Valor Deduzido
+
+       004202             188   9        Reserva de Contingência           99 A Definir              0                          2                          15.319.536
+
+                                                                                                   TOTAL ........                                          15.319.536
+
+     TIPO DA SUBVENÇÃO
+
+     Público
+
+JUSTIFICATIVA
+
+Objetivo: INSUMOS ou Reforço de Dotação Piso de Atenção Básica / Média e Alta Complexidade- Atenção Especializada / Básica.
+
+a) auxílio na realização de despesas correntes e na aquisição de material de consumo e médico-hospitalar necessário ao desenvolvimento das atividades; ou
+
+b) reforço das dotações repassadas a título de piso de atenção básica e de procedimentos de média e alta complexidade, constituindo tais valores acréscimos aos tetos
+
+transferidos pela União para cumprimento de metas estabelecidas.
+

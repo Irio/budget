@@ -1,0 +1,133 @@
+            CONGRESSO NACIONAL                                                                                                             Data:    20/10/2016
+
+            COMISSÃO MISTA DE PLANOS, ORÇAMENTOS E FISCALIZAÇÃO                                                                            Hora:    21:33
+
+            EMENDAS AO PLN 0018 / 20-16 - LOA                                                                                              Página:  1781 de 7916
+                                                                                                                                                    1 de 2
+
+ESPELHO DE EMENDA DE APROPRIAÇÃO DE DESPESA
+
+AUTOR DA EMENDA                                                                                                                                   EMENDA
+
+2701 - Domingos Neto                                                                                                                                27010001
+
+MODALIDADE DA EMENDA                                                TIPO DE EMENDA
+
+Individual                                                          Apropriação - Acréscimo
+
+LOCALIDADE BENEFICIADA
+
+9000000 - Nacional
+
+COMPLEMENTO DA LOCALIDADE
+
+ESFERA ORÇAMENTÁRIA                                             UNIDADE ORÇAMENTÁRIA PRETENDIDA
+
+Orçamento da Seguridade Social                                  Fundo Nacional de Saúde
+
+FUNCIONAL / AÇÃO / SUBTÍTULO
+
+10.302.2015.6148.0001
+
+Assistência Médica Qualificada e Gratuita a Todos os Níveis da População e Desenvolvimento de Atividades Educacionais e de Pesquisa no Campo da Saúde -
+
+Serviço Social Autônomo Associação das Pioneiras Sociais
+
+Nacional
+
+ESPECIFICAÇÃO DA META                                                                                                                                    QUANTIDADE
+
+Procedimento realizado(unidade)                                                                                                                                     1
+
+ACRÉSCIMOS À PROGRAMAÇÃO (EM R$ 1,00)
+
+GND                                                             MOD. APLICAÇÃO                       RP                                           Valor Acrescido
+
+3           Outras Despesas Correntes                           90  Aplic. Diretas                               6                                       159.769
+
+                                                                                                 TOTAL ........                                          159.769
+
+CANCELAMENTOS COMPENSATÓRIOS
+
+SEQUENCIAL             FONTE     GND                                MOD. APLICAÇÃO               ID              RP                                 Valor Deduzido
+
+          004202       188       9     Reserva de Contingência      99 A Definir                 0                                      2                159.769
+
+                                                                                                 TOTAL ........                                          159.769
+
+JUSTIFICATIVA
+
+Esta emenda pleiteia recursos de acréscimo ao PLOA/2017 para execução do Contrato de Gestão, correspondente às despesas correntes (pessoaL, materiais e serviços)
+
+para todas as unidades da Rede, garantindo a continuidade dos atendimentos, dos projetos educacionais e de pesquisa no campo da saúde.
+            CONGRESSO NACIONAL                                                                                                     Data:    20/10/2016
+
+            COMISSÃO MISTA DE PLANOS, ORÇAMENTOS E FISCALIZAÇÃO                                                                    Hora:    21:33
+
+            EMENDAS AO PLN 0018 / 20-16 - LOA                                                                                      Página:  1782 de 7916
+                                                                                                                                            2 de 2
+
+ESPELHO DE EMENDA DE APROPRIAÇÃO DE DESPESA
+
+AUTOR DA EMENDA                                                                                                                           EMENDA
+
+2701 - Domingos Neto                                                                                                                        27010002
+
+MODALIDADE DA EMENDA                                                       TIPO DE EMENDA
+
+Individual                                                                 Apropriação - Inclusão
+
+ÁREA DE GOVERNO
+
+Saúde
+
+MODALIDADE DE INTERVENÇÃO                                             TIPO DE REALIZAÇÃO PRETENDIDA
+
+050    Manutenção (apenas GND 3 - Despesas Correntes)                 615  Manutenção de Unidade de Saúde (GND 3 - Despesa Corrente)
+
+LOCALIDADE BENEFICIADA
+
+2300000 - Ceará
+
+COMPLEMENTO DA LOCALIDADE
+
+ESFERA ORÇAMENTÁRIA                                               UNIDADE ORÇAMENTÁRIA PRETENDIDA
+
+Orçamento da Seguridade Social                                    Fundo Nacional de Saúde
+
+FUNCIONAL / AÇÃO / SUBTÍTULO
+
+10.122.2015.4525
+
+Apoio à Manutenção de Unidades de Saúde
+
+No Estado do Ceará
+
+ESPECIFICAÇÃO DA META                                                                                                                       QUANTIDADE
+
+Unidade apoiada(unidade)                                                                                                                                    1
+
+ACRÉSCIMOS À PROGRAMAÇÃO (EM R$ 1,00)
+
+     GND                                                          MOD. APLICAÇÃO                                             RP           Valor Acrescido
+
+       3      Outras Despesas Correntes                           99  A Definir                                              2              15.159.769
+
+                                                                                                   TOTAL ........                           15.159.769
+
+CANCELAMENTOS COMPENSATÓRIOS
+
+     SEQUENCIAL     FONTE       GND                                        MOD. APLICAÇÃO                                ID  RP             Valor Deduzido
+
+       004202             188   9        Reserva de Contingência           99 A Definir                                  0      2           15.159.769
+
+                                                                                                   TOTAL ........                           15.159.769
+
+     TIPO DA SUBVENÇÃO
+
+     Público
+
+JUSTIFICATIVA
+
+Destinação de Recursos correntes para a manutenção de Unidades de Saúde, que integram a Rede do Sistema Único de Saúde.
+

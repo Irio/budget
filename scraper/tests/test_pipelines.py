@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest.mock import MagicMock
 
-from legislative_amendments.pipelines import TargetLocationPipeline
+from scraper.legislative_amendments.pipelines import TargetLocationPipeline
 
 
 class TestTargetLocationPipeline(TestCase):
