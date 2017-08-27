@@ -1,7 +1,8 @@
-image: python:latest
-tests:
+image: python:3.6.2
+test:
   before_script:
   - apt-get update
-  - apt-get install xpdf
+  - apt-get install -y xpdf
+  - pip install -r requirements.txt
   script:
   - python -m unittest
