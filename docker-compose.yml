@@ -1,0 +1,8 @@
+version: "3"
+services:
+  scraper:
+    build:
+      context: scraper
+    volumes:
+      - ./scraper:/mnt/scraper
+      - ./data:/mnt/data
