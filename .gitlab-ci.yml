@@ -1,0 +1,10 @@
+image: tmaier/docker-compose:latest
+
+services:
+- docker:dind
+
+scraper:
+  before_script:
+  - docker-compose build scraper
+  script:
+  - docker-compose run scraper python -m unittest
