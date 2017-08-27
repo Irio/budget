@@ -1,6 +1,7 @@
 image: python:latest
-scraper:
+tests:
   before_script:
+  - apt-get update
   - apt-get install xpdf
   script:
   - python -m unittest
