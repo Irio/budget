@@ -4,6 +4,8 @@ import tempfile
 from unittest import TestCase, skipIf
 from unittest.mock import patch
 
+import pandas as pd
+
 from budget.chamber_of_deputies.pdf import PDF
 
 
@@ -58,10 +60,23 @@ class TestPDF(TestCase):
 
     def test_fail_in_non_macos_systems(self):
         filepath = 'budget/tests/fixtures/single_page.pdf'
+        subject = PDF(filepath)
         with patch('budget.chamber_of_deputies.pdf.sys') as sys_mock:
             sys_mock.platform = 'linux'
             with self.assertRaises(Exception):
-                PDF(filepath)
+                subject.extract_text()
             sys_mock.platform = 'win32'
             with self.assertRaises(Exception):
-                PDF(filepath)
+                subject.extract_text()
+
+    def test_dataframe(self):
+        tempfolder = tempfile.mkdtemp()
+        pdf_1_path = '{}/single_page.pdf'.format(tempfolder)
+        shutil.copy('budget/tests/fixtures/single_page.pdf', tempfolder)
+        pdf_2_path = '{}/multi_page.pdf'.format(tempfolder)
+        shutil.copy('budget/tests/fixtures/multi_page.pdf', tempfolder)
+
+        subject = PDF('{}/*.pdf'.format(tempfolder))
+        subject.extract_text()
+        result = subject.dataframe()
+        self.assertIsInstance(result, pd.DataFrame)
