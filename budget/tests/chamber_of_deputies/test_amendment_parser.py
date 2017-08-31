@@ -36,7 +36,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('167', result['achievement_code'])
         self.assertEqual('Instalações/Equip.Militares', result['achievement'])
         self.assertEqual('4300000 - Rio Grande do Sul', result['location'])
-        self.assertEqual('100.000', result['extra_value'])
+        self.assertEqual('100.000', result['additional_value'])
 
     def test_parse_splitted_author_bancada_mato_grosso_do_sul(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2017/emendas/despesa/P5563_AV_LOA_AUTOR2_7113.pdf#page=14
@@ -57,7 +57,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('987', result['achievement_code'])
         self.assertEqual('Desenvolvimento Economico', result['achievement'])
         self.assertEqual('5000000 - Mato Grosso do Sul', result['location'])
-        self.assertEqual('100.000.000', result['extra_value'])
+        self.assertEqual('100.000.000', result['additional_value'])
 
     def test_parse_splitted_author_professora_dorinha_seabra_rezende(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2017/emendas/despesa/P5563_AV_LOA_AUTOR2_2693.pdf#page=11
@@ -78,7 +78,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('805', result['achievement_code'])
         self.assertEqual('Cooperação', result['achievement'])
         self.assertEqual('1721000 - Palmas', result['location'])
-        self.assertEqual('100.000', result['extra_value'])
+        self.assertEqual('100.000', result['additional_value'])
 
     def test_parse_splitted_author_bancada_rio_grande_do_norte(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2017/emendas/despesa/P5563_AV_LOA_AUTOR2_7121.pdf#page=3
@@ -100,7 +100,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('Sem Previsão (Atípico) - Adequar UO-Subf-Prog-Ação-Subt.',
                          result['achievement'])
         self.assertEqual('2400000 - Rio Grande do Norte', result['location'])
-        self.assertEqual('40.000.000', result['extra_value'])
+        self.assertEqual('40.000.000', result['additional_value'])
 
     def test_parse_splitted_author_bancada_rio_grande_do_sul(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2017/emendas/despesa/P5563_AV_LOA_AUTOR2_7122.pdf#page=3
@@ -121,7 +121,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('761', result['achievement_code'])
         self.assertEqual('Setor Agropecuário', result['achievement'])
         self.assertEqual('4300000 - Rio Grande do Sul', result['location'])
-        self.assertEqual('100.000.000', result['extra_value'])
+        self.assertEqual('100.000.000', result['additional_value'])
 
     def test_parse_sequence_page(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2012/emendas/despesa/CARLOSFX_AV_LOA_AUTOR2_2818.pdf#page=4
@@ -151,7 +151,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('Individual', result['category'])
         self.assertEqual('Supressiva', result['type'])
         self.assertEqual('Inciso I Alinea 2 Item 2', result['reference'])
-        self.assertEqual('Suprima-se o texto atual.', result['wording_proposal'])
+        self.assertEqual('Suprima-se o texto atual.', result['proposed_wording'])
         self.assertEqual('Devido a crise econômica que o Brasil enfrenta, os recursos para aumento de salário para servidores devem ser suspensos de todos os poderes. Para tanto, é necessário\ncancelar a autorização do Anexo V e os recursos correspondentes à ação 0Z01.',
                          result['justification'])
 
@@ -175,7 +175,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('436', result['achievement_code'])
         self.assertEqual('Saneamento em Área Rural', result['achievement'])
         self.assertEqual('4100000 - Paraná', result['location'])
-        self.assertEqual('100.000', result['extra_value'])
+        self.assertEqual('100.000', result['additional_value'])
 
     def test_parse_broken_intervention(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2014/emendas/despesa/P5563_AV_LOA_AUTOR2_2491.pdf#page=5
@@ -198,7 +198,7 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('Atenção à Familia/Criança/Adolesc./Idoso/Pessoa c/defic.',
                          result['achievement'])
         self.assertEqual('3200000 - Espírito Santo', result['location'])
-        self.assertEqual('500.000', result['extra_value'])
+        self.assertEqual('500.000', result['additional_value'])
 
     def test_parse_broken_intervention2(self):
         # http://www.camara.leg.br/internet/comissao/index/mista/orca/orcamento/OR2016/emendas/despesa/ANDRELUF_AV_LOA_AUTOR2_1277.pdf#page=7
@@ -221,4 +221,4 @@ class TestAmendmentParser(TestCase):
         self.assertEqual('Atenção à Familia/Criança/Adolesc./Idoso/Pessoa c/defic.',
                          result['achievement'])
         self.assertEqual('2507507 - João Pessoa', result['location'])
-        self.assertEqual('100.000', result['extra_value'])
+        self.assertEqual('100.000', result['additional_value'])

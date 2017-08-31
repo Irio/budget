@@ -34,14 +34,14 @@ class AmendmentParser:
                 'achievement_code': self.attribute('TIPO DE REALIZAÇÃO PRETENDIDA', 3),
                 'achievement': self.attribute('TIPO DE REALIZAÇÃO PRETENDIDA', 4),
                 'location': self.attribute('LOCALIDADE BENEFICIADA', 1),
-                'extra_value': self.attribute('TOTAL ........', 1),
+                'additional_value': self.attribute('TOTAL ........', 1),
             })
         elif amendment['destination'] == 'ESPELHO DE EMENDAS AO TEXTO DA LEI':
             amendment.update({
                 'category': self.attribute('MODALIDADE DA EMENDA', 3),
                 'type': self.attribute('TIPO DE EMENDA', 3),
                 'reference': self.attribute('REFERÊNCIA', 3),
-                'wording_proposal': self.attribute('TEXTO PROPOSTO', 1),
+                'proposed_wording': self.attribute('TEXTO PROPOSTO', 1),
                 'justification': self.justification(),
             })
         return amendment

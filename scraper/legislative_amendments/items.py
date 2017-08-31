@@ -18,7 +18,7 @@ class ChamberOfDeputiesAmendment(scrapy.Item):
     page_number = scrapy.Field()
     party = scrapy.Field()
     pdfs = scrapy.Field()
-    pledging_info_url = scrapy.Field()
+    commitment_info_url = scrapy.Field()
     state = scrapy.Field()
     target_location = scrapy.Field()
     urls = scrapy.Field()

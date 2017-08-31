@@ -78,7 +78,7 @@ class ChamberOfDeputiesSpider(scrapy.Spider):
             'expenditure_group_id': expenditure_group_id,
             'page_number': page_number,
             'party': party,
-            'pledging_info_url': urls[1] if len(urls) > 1 else None,
+            'commitment_info_url': urls[1] if len(urls) > 1 else None,
             'state': author_group[-1],
             'urls': urls[0].split('#')[:1],
             'value': float(value.replace('.', '').replace(',', '.')),
